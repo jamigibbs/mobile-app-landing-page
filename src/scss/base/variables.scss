@@ -1,0 +1,38 @@
+$font-family: 'Roboto', sans-serif;
+
+$colors: (
+  white: #ffffff,
+  light: #f1f1f1,
+  grey: #A0999E,
+  black: #302D2F,
+  green: #00FF9F,
+  saphire: #9195a4,
+  darkBlue: #24355a
+);
+
+$whitespace: (
+  xxxx-large: 8rem,
+  xxx-large: 6.5rem,
+  xx-large: 5rem,
+  x-large: 3.7rem,
+  large: 3rem,
+  x-medium: 2.25rem,
+  medium: 2rem,
+  small: 1.2rem,
+  x-small: 0.7rem,
+  xx-small: 0.4rem,
+  xxx-small: 0.25rem
+);
+
+$font-size: (
+  default: '16px/1.35',
+  xxxx-large: '18rem/0.9',
+  xxx-large: '8rem/1.05',
+  xx-large: '5rem/1.0',
+  x-large: '4rem/1.1',
+  large: '3rem/1.2',
+  x-medium: '2.2rem/1.2',
+  medium: '1.2rem/1.4',
+  small: '1rem/1.6',
+  tiny: '0.8rem/1.0'
+);
