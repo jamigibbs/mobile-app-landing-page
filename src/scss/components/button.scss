@@ -1,5 +1,5 @@
 
-button {
+.btn {
   display: inline-block;
   height: 38px;
   padding: 25px 40px;
@@ -15,7 +15,7 @@ button {
   cursor: pointer;
   box-sizing: border-box;
 
-  &.btn-grad {
+  &--grad {
     background-size: 300% 100%;
     background-image: linear-gradient(to right, #FF4182, #FFA85B, #FF8269, #FFA85B);
     box-shadow: 0 4px 15px 0 rgba(255, 108, 114, 0.75);

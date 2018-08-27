@@ -1,37 +1,37 @@
-#menu {
+.menu {
 
-  .dropdown {
+  &__dropdown {
     position: relative;
     display: inline-block;
 
-    .dropbtn {
-      color: color(saphire);
-      padding: ws(x-small);
-      font-weight: 100;
-      border: none;
-      cursor: pointer;
-      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
-      margin-bottom: 10px;
-      i {
-        position: relative;
-        top: 2px;
-        color: color(saphire);
-        padding-left: 10px;
-      }
-    }
-
     &:hover {
-      .dropdown-content {
+      .menu__content {
         display: block;
       }
-      .dropbtn {
+      .menu__btn {
         background-color: color(white);
       }
     }
   }
 
-  .dropdown-content {
+  &__btn {
+    color: color(saphire);
+    padding: ws(x-small);
+    font-weight: 100;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    i {
+      position: relative;
+      top: 2px;
+      color: color(saphire);
+      padding-left: 10px;
+    }
+  }
+
+  &__content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
