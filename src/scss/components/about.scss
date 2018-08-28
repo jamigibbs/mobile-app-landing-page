@@ -1,0 +1,44 @@
+.about {
+  &__header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #9195a4;
+  }
+  &__sub-header {
+    color: color(darkBlue);
+    margin: 2rem 0;
+    text-align: center;
+  }
+}
+
+.features {
+  .columns {
+    text-align: center;
+  }
+  &__header {
+    color: color(darkBlue);
+    text-align: center;
+    margin: 3rem 0 1rem 0;
+  }
+  &__desc {
+    text-align: center;
+    color: #9195a4;
+  }
+}
+
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .about {
+    padding: 15rem 0;
+    &__sub-header {
+      margin: 2rem 12rem 4rem 12rem;
+    }
+  }
+  .features {
+    &__desc {
+      padding: 0 2rem;
+    }
+  }
+}

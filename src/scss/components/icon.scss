@@ -1,0 +1,30 @@
+
+.icon {
+  display: inline-block;
+  //height: 38px;
+  padding: 40px 50px;
+  color: white;
+  text-align: center;
+  font: font(small);
+  font-weight: 100;
+  line-height: 0;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+  &--grad {
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, #FF4182, #FFA85B, #FF8269, #FFA85B);
+    box-shadow: 0 4px 15px 0 rgba(255, 108, 114, 0.75);
+    transition: all .4s ease-in-out;
+    &:hover {
+      background-position: 99% 0;
+      transition: all .4s ease-in-out;
+    }
+  }
+
+}

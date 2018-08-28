@@ -22,7 +22,7 @@
 }
 
 .down {
-  margin-top: 10rem;
+  display: none;
   &__arrow-wrap {
     display: flex;
     justify-content: center;
@@ -49,6 +49,12 @@
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
+  .down {
+    display: inline;
+    &__arrow-wrap {
+     margin-top: 10rem;
+    }
+  }
   .iphone {
     &__img {
       position: relative;
