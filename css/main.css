@@ -596,6 +596,30 @@ h3 {
             box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
     color: white; }
 
+footer {
+  height: 100px; }
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .copyright__name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1rem; }
+  .copyright__details {
+    color: #9dafbd;
+    font-size: 0.75rem; }
+
+.footer-nav {
+  text-align: right; }
+  .footer-nav ul {
+    list-style: none; }
+  .footer-nav li {
+    display: inline;
+    margin-left: 1rem;
+    color: #9195a4; }
+
 .header {
   margin-top: 40px; }
 
