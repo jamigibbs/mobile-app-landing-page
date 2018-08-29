@@ -1,0 +1,1 @@
+"use strict";var test=function(t){return t};console.log(test("The site is loaded"));
