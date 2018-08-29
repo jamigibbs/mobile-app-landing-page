@@ -1,0 +1,44 @@
+<div class="row chat">
+  <div class="columns six chat-box">
+
+    <div class="chat-single-wrap">
+      <div class="chat-single">
+        <div class="chat-single__avatar">
+          <div class="chat-single__crop">
+            <img class="chat-single__img" src="images/user.png" alt="Chat user avatar">
+          </div>
+        </div>
+        <div class="chat-single__text-wrap">
+          <p class="chat-single__text">Hi there 🙋🏻‍. <br /> Are you available around 4PM today for meeting with a new client?</p>
+          <p class="chat-single__timestamp">10:45 AM</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-response">
+      {{> button text="Hey Emily" gradient=true }}
+      {{> button text="Sure, just give me a call!" gradient=true }}
+      <p class="chat-response__timestamp">10:45 AM</p>
+    </div>
+
+    <div class="chat-single-wrap">
+      <div class="chat-single">
+        <div class="chat-single__avatar">
+          <div class="chat-single__crop">
+            <img class="chat-single__img" src="images/user.png" alt="Chat user avatar">
+          </div>
+        </div>
+        <div class="chat-single__text-wrap">
+          <p class="chat-single__text">Great! See you there!</p>
+          <p class="chat-single__timestamp">10:45 AM</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="columns six chat__about">
+    <h3 class="chat__header">Group Chat Widgets</h3>
+    <p class="chat__desc">Skola is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</p>
+    {{> button text="Get started" gradient=false pink=true }}
+  </div>
+</div>

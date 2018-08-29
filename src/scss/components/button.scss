@@ -1,9 +1,11 @@
 
 .btn {
   display: inline-block;
-  height: 38px;
+  // height: 38px;
+  width: 200px;
+  word-wrap: break-word;
   padding: 25px 40px;
-  color: white;
+  color: black;
   text-align: center;
   font: font(small);
   font-weight: 100;
@@ -21,10 +23,17 @@
     background-image: linear-gradient(to right, #FF4182, #FFA85B, #FF8269, #FFA85B);
     box-shadow: 0 4px 15px 0 rgba(255, 108, 114, 0.75);
     transition: all .4s ease-in-out;
+    color: white;
     &:hover {
       background-position: 99% 0;
       transition: all .4s ease-in-out;
     }
+  }
+
+  &--pink {
+    background-color: #ff4182;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+    color: white;
   }
 
 }
