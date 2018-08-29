@@ -1,0 +1,28 @@
+footer {
+  height: 100px;
+}
+
+.copyright {
+  display: flex;
+  &__name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  &__details {
+    color: #9dafbd;
+    font-size: 0.75rem;
+  }
+}
+
+.footer-nav {
+  text-align: right;
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline;
+    margin-left: 1rem;
+    color: #9195a4;
+  }
+}
