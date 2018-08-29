@@ -1,0 +1,33 @@
+.stats-preview {
+
+  width: 100%;
+  height: 800px;
+
+  background: url('../images/stats-bg.svg') no-repeat top right;
+  background-size: contain;
+}
+
+.stats-about {
+  margin-top: 4rem;
+  padding-top: 5rem;
+  padding-left: 10rem;
+  &__about {
+    text-align: center;
+  }
+  &__header {
+    margin: 1rem 0 2rem 0;
+  }
+  &__desc {
+    color: #98a3b9;
+    margin-bottom: 3rem;
+  }
+  &__example {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    background: url('../images/chat-bg.svg') no-repeat bottom right;
+    background-size: contain;
+  }
+}
